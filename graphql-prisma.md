@@ -227,6 +227,9 @@ query{
 
 To implement the above scenerio
 
+
+//typedefs
+
 ```
 const users = [{
   id: '1',
@@ -293,6 +296,46 @@ const typeDefs = `
 # 6a. Querying based on relation (Single directional relation)
 
 List all posts and also the author of each individual post. To implement this
+
+```
+const users = [{
+  id: '1',
+  name: 'Jeril',
+  email: jeril@gmail.com,
+  age: 36
+}, {
+  id: '1',
+  name: 'Sarah',
+  email: sarah@gmail.com,
+  age: 30
+}, {
+  id: '3',
+  name: 'Mike',
+  email: mike@gmail.com,
+  age: 31
+}]
+
+const posts = [{
+  id: '10',
+  title: 'Graphql 101',
+  body: 'This is how to use Graphql',
+  published: true,
+  author: '1',    // 1 is the id of user
+}, {
+  id: '11',
+  title: 'Graphql 201',
+  body: 'This is an advanced Graphql post',
+  published: true,
+  author: '1'     // 1 is the id of the user or written by the user whose id is 2
+}, {
+  id: '12',
+  title: 'Programming basics',
+  body: 'This is a programming post',
+  published: false,
+  author: '2'   // 2 is the id of the user
+}]
+
+```
 
 ## Query:
 
@@ -402,4 +445,142 @@ const resolvers = {
 }
 
 ```
+# 6b. Querying based on relation (Bi-directional relation)
 
+// Query
+
+```
+query {
+  users {
+    id
+    name
+    email
+    age
+    posts {
+      id
+      title
+    }
+  }
+}
+```
+
+// results
+
+```
+  {
+    "data": {
+      "users": [
+        {
+          "id": "1",
+          "name": "Jeril",
+          "email": "jeril@gmail.com"
+          "age": 36,
+          "posts":[
+            {
+              "id": "10",
+              "title": "Graphql 101"
+            },
+            {
+              "id": "11"
+              "title": "GraphQL 201"
+            }
+          ]
+        },        
+      ]
+    }
+  }
+```
+
+// data
+
+```
+const users = [{
+  id: '1',
+  name: 'Jeril',
+  email: jeril@gmail.com,
+  age: 36
+}, {
+  id: '1',
+  name: 'Sarah',
+  email: sarah@gmail.com,
+  age: 30
+}, {
+  id: '3',
+  name: 'Mike',
+  email: mike@gmail.com,
+  age: 31
+}]
+
+const posts = [{
+  id: '10',
+  title: 'Graphql 101',
+  body: 'This is how to use Graphql',
+  published: true,
+  author: '1',    // 1 is the id of user
+}, {
+  id: '11',
+  title: 'Graphql 201',
+  body: 'This is an advanced Graphql post',
+  published: true,
+  author: '1'     // 1 is the id of the user or written by the user whose id is 2
+}, {
+  id: '12',
+  title: 'Programming basics',
+  body: 'This is a programming post',
+  published: false,
+  author: '2'   // 2 is the id of the user
+}]
+
+```
+
+// typedefs
+
+```
+const typeDefs = `
+   type Query {
+      users(query: String): [User!]!
+   }
+
+   type User {
+      id: ID!
+      name: String!
+      email: String!
+      age: Int
+      posts: [Post!]!
+   }
+
+   type Post {
+      id: ID!
+      title: String!
+      body: String!
+      published: Boolean
+      author: User!  
+   }
+   `
+```
+// resolvers
+
+```
+const resolvers = {
+  Query: {
+    users(parent, args, ctx, info) {
+      if (!args.query) {
+        return users
+      }
+       return users.filter((user) => {
+         return user.name.toLowerCase().includes(args.query.toLowerCase())
+       })
+    }
+  }, 
+  
+  User: {
+    posts(parent, args, ctx, info) {
+      return posts.filter((post) => {
+         return post.author === parent.id
+      })
+    }
+  }
+}
+
+
+```
