@@ -140,7 +140,7 @@
 
 # &#x1F4D7; Using graphql & prisma
 
-* [Using graphql & prisma](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma)
+* [Using graphql & prisma](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma.md)
 
 # Using Kubernetes
 
