@@ -138,7 +138,7 @@
 
 * [Using Docker](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/docker.md)
 
-# # &#x1F4D7; Using graphql prisma
+# &#x1F4D7; Using graphql & prisma
 
 * [Using graphql & prisma](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma)
 
