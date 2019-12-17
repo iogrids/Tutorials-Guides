@@ -445,7 +445,7 @@ const resolvers = {
 }
 
 ```
-# 6b. Querying based on relation (Bi-directional relation)
+# 6b. Querying based on relation (Single directional relation - example 2)
 
 // Query
 
