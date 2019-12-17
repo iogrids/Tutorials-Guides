@@ -91,3 +91,130 @@ Result:
 ```
 
 ---
+
+# 4. Working with array of objects
+
+```
+// array declaration
+
+const = [{
+  id: '1',
+  name: 'Jeril',
+  email: jeril@gmail.com,
+  age: 36
+}, {
+  id: '1',
+  name: 'Sarah',
+  email: sarah@gmail.com,
+  age: 30
+}, {
+  id: '3',
+  name: 'Mike',
+  email: mike@gmail.com,
+  age: 31
+}]
+
+//typedefs
+
+const typeDefs = `
+  type Query {
+    users: [User!]!
+  }
+
+  type User {
+    id: ID!
+    name: String!
+    email: String!
+    age: Int
+  }
+`
+// resolver function for the typedef
+
+const resolvers = {
+  Query: {
+      users(parent, args, ctx, info) {
+         return users
+      }
+   }
+}
+
+//querying results in Graphql Playground
+
+query{
+   users {
+     id
+     name
+     email
+     age
+   }
+}
+
+```
+
+# 5. Working with array filters (Filter value and show the results)
+
+```
+// array declaration
+
+const = [{
+  id: '1',
+  name: 'Jeril',
+  email: jeril@gmail.com,
+  age: 36
+}, {
+  id: '1',
+  name: 'Sarah',
+  email: sarah@gmail.com,
+  age: 30
+}, {
+  id: '3',
+  name: 'Mike',
+  email: mike@gmail.com,
+  age: 31
+}]
+
+//typedefs
+
+const typeDefs = `
+  type Query {
+    users(query: String): [User!]!
+  }
+
+  type User {
+    id: ID!
+    name: String!
+    email: String!
+    age: Int
+  }
+`
+// resolver function for the typedef
+
+const resolvers = {
+  Query: {
+      users(parent, args, ctx, info) {
+         if (args.query) {
+           //if there is no filter, then return all the users
+           return users
+         }
+         return users.filter((user) => {
+           //convert everything to lowercase
+           //The includes() method determines whether a string contains the characters of a specified string.
+           return user.name.toLowerCase().includes(args.query.toLowerCase())
+         })
+      }
+   }
+}
+
+// querying results in Graphql Playground
+// the below lists all the users who have the letter 'a' in them
+
+query{
+   users(query: "A") {
+     id
+     name
+     email
+     age
+   }
+}
+
+```
