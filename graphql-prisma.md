@@ -1,4 +1,4 @@
-#  Send data from the client to the server
+# 1. Send data from the client to the server
 
 ```
 const typeDefs = `
@@ -30,7 +30,7 @@ greeting(name: "Andrew", position: "teacher")
 
 ---
 
-# Graphql - Send arrays from the server to the client
+# 2. Graphql - Send arrays from the server to the client
 
 ```
 const typeDefs = `
@@ -51,7 +51,7 @@ const resolvers = {
 
 ---
 
-# Graphql - Send array of data from the client to the server
+# 3. Graphql - Send array of data from the client to the server
 
 ```
 const typeDefs = `
