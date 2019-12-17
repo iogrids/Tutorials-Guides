@@ -156,7 +156,7 @@ query{
 ```
 // array declaration
 
-const = [{
+const users = [{
   id: '1',
   name: 'Jeril',
   email: jeril@gmail.com,
@@ -218,3 +218,186 @@ query{
 }
 
 ```
+# 6. Relationship between two types
+
+     1. Here there are data types User and Post
+     2. User type and Post type are related as follows
+           1. Every Post is written by some user
+           2. A user can have a collection of posts
+
+To implement the above scenerio
+
+```
+const users = [{
+  id: '1',
+  name: 'Jeril',
+  email: jeril@gmail.com,
+  age: 36
+}, {
+  id: '1',
+  name: 'Sarah',
+  email: sarah@gmail.com,
+  age: 30
+}, {
+  id: '3',
+  name: 'Mike',
+  email: mike@gmail.com,
+  age: 31
+}]
+
+const posts = [{
+  id: '10',
+  title: 'Graphql 101',
+  body: 'This is how to use Graphql',
+  published: true,
+  author: '1',    // 1 is the id of user
+}, {
+  id: '11',
+  title: 'Graphql 201',
+  body: 'This is an advanced Graphql post',
+  published: true,
+  author: '1'     // 1 is the id of the user or written by the user whose id is 2
+}, {
+  id: '12',
+  title: 'Programming basics',
+  body: 'This is a programming post',
+  published: false,
+  author: '2'   // 2 is the id of the user
+}]
+
+const typeDefs = `
+   type Query {
+      // code here
+   }
+
+   type User {
+      id: ID!
+      name: String!
+      email: String!
+      age: Int
+      posts: [Post!]!
+   }
+
+   type Post {
+      id: ID!
+      title: String!
+      body: String!
+      published: Boolean
+      author: User!  
+   }
+`
+```
+
+---
+
+# 6a. Querying based on relation (Single directional relation)
+
+List all posts and also the author of each individual post. To implement this
+
+## Query:
+
+```
+query{
+  posts {
+    id
+    title
+    body
+    published
+    author {
+      name
+    }
+  }
+}
+```
+## Result:
+
+```
+{
+  "data": [
+    {
+      "id": "10",
+      "title: "Graphql 101",
+      "body": "This is how to use Graphql",
+      "published": true,
+      "author": {
+        "name": "Jeril"
+       }  
+    }, {
+      "id": "11",
+      "title: "Graphql 201",
+      "body": "This is an advanced Graphql post",
+      "published": false,
+      "author": {
+        "name": "Jeril"
+       }  
+    },
+    {
+      "id": "12",
+      "title": 'Programming basics',
+      "body": 'This is a programming post',
+      "published": false, 
+      "author": {
+        "name": "Mike"
+       }  
+    }]
+}
+
+```
+
+// typedefs code
+
+```
+const typedefs = `
+  type Query {
+    posts(query: String): [Post!]!
+  }
+
+  type Post {
+    id: ID!
+    title: String!
+    body: String!
+    published: Boolean!
+    author: User!
+  }
+
+  type User {
+    id: ID!
+    name: String!
+    email: String!
+    age: Int
+  }
+`
+```
+// resolvers
+
+const resolvers = {
+  Query: {
+    posts(parent, args, ctx, info) {
+      if (!args.query) {
+        return posts
+      }
+       return posts.filter(post) => {
+         const isTitleMatch = post.title.toLowerCase().includes(args.query.toLowerCase())
+         const isBodyWatch = post.body.toLowerCase().includes(args.query.toLowerCase())
+         return isTitleMatch || isBodyWatch
+       }
+    }
+  }, 
+  // When one of the of fields is not a scalar type we will have to set up a custom resolver function to teach graphql on how to get the correct data. Here for Post typedef author: User! is not a scalar type and hence the below code
+  
+  Post: {
+    // if there are 3 posts, parent iterates over the first array and parent acts as the     // object of the first post
+    // So you can access like this
+
+    // parent.published , parent.author, parent.title etc   
+
+
+    author(parent, args, ctx, info) {
+      return users.find((user) => {
+         return user.id === parent.author
+      })
+    }
+  }
+}
+
+
