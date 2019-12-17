@@ -370,6 +370,7 @@ const typedefs = `
 ```
 // resolvers
 
+```
 const resolvers = {
   Query: {
     posts(parent, args, ctx, info) {
@@ -384,7 +385,7 @@ const resolvers = {
     }
   }, 
   // When one of the of fields is not a scalar type we will have to set up a custom resolver function to teach graphql on how to get the correct data. Here for Post typedef author: User! is not a scalar type and hence the below code
-  
+
   Post: {
     // if there are 3 posts, parent iterates over the first array and parent acts as the     // object of the first post
     // So you can access like this
@@ -400,4 +401,5 @@ const resolvers = {
   }
 }
 
+```
 
