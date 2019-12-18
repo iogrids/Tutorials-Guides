@@ -141,9 +141,7 @@
 # &#x1F4D7; Using graphql & prisma
 
 * [Using graphql Query](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma-query.md)
-
 * [Using graphql Mutation](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma-mutation.md)
-
 * [Using graphql Subscription](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/graphql-prisma-subscription.md)
 
 # Using Kubernetes
