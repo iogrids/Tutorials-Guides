@@ -228,7 +228,7 @@ query{
 To implement the above scenerio
 
 
-//typedefs
+//data
 
 ```
 const users = [{
@@ -267,6 +267,8 @@ const posts = [{
   published: false,
   author: '2'   // 2 is the id of the user
 }]
+
+//typedefs
 
 const typeDefs = `
    type Query {
