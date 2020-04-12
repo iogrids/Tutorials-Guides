@@ -88,6 +88,7 @@
 * [How to iterate over react state using javascript map functio](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/iterate-over-react-state.md)
 * [Event handling in react](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/event-handling-react.md)
 * [States in class based component](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/react-states.md)
+* [Usimg props and children props in react](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/props-children-props.md)
 
 # &#x1F4D7; NODE.JS
 
