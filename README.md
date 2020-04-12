@@ -85,7 +85,7 @@
 
 # &#x1F4D7; REACT
 
-* [React Example Snippets]()
+* [How to iterate over react state using javascript map functio](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/iterate-over-react-state.md)
 
 # &#x1F4D7; NODE.JS
 
