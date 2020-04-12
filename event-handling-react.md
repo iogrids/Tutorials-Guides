@@ -1,4 +1,3 @@
-
 Event Handling in React class component and changing the values of the state during run time
 
 // Always try to use functional based component since they are easy to manage than class based component
@@ -6,6 +5,8 @@ Event Handling in React class component and changing the values of the state dur
 // States - values which are passed within the component
 
 // Class component
+
+```
 
 import React, { Component } from 'react';
 import './App.css';
@@ -60,3 +61,4 @@ class App extends Component {
 
 export default App;
 
+```
