@@ -133,6 +133,7 @@ export default Example;
 
 # Looping through a state
 
+```
 this.state = {
             people: [
                 { name: 'Bob', count: 0 },
@@ -142,9 +143,11 @@ this.state = {
                 { name: 'Gene', count: 0 }
             ]
         }
+```
 
 // Accessing the above values in JSX as shown below
 
+```
 <div className="App">
   {
      //looping through the array and copying the values to another array called person.
@@ -152,10 +155,12 @@ this.state = {
         <li> {person.name} </li>))
      }
 </div>
+```
 
 
 # Iterate over react state and if a condition is met change the state. Example shown below
 
+```
 import React, { Component } from 'react'
 
 export default class Component1 extends Component {
@@ -203,3 +208,4 @@ export default class Component1 extends Component {
     }
 }
 
+```
