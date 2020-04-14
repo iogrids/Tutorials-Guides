@@ -1,5 +1,5 @@
 ```
-//this is an example of post using axios.
+// This is an example of sending a POST request using axios.
 // We get the values in the form. The values entered in the form are stored in the state variable
 // axios.post is then called along with the values in the state object
 // The newly available values are then captured by the api
