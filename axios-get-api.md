@@ -1,4 +1,4 @@
-### this is an example of how to get names from a api
+### This is an example of how to get names from a api
 ### Here we read the values using axios and save them in the state object
 ### All values are then displayed from the state object
 
