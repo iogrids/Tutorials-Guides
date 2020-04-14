@@ -134,6 +134,18 @@
 * [Python Bootcamp](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
 * [Cherrypy Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Flask Tutorials](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/flask-tutorials.md)
+
+ ## &#x1F4D7; FLASK
+
+* [Hello world in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/hellow-world-flask.md)
+* [Dynamic routing in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/flask-dynamic-routing.md)
+* [Using query string in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/query-string-flask.md)
+* [How to enable debugging in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/flask-debugging.md)
+* [How to use HTML template in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-html-template-in-flask.md)
+* [How to pass variable from python to HTML file using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/pass-variable-from-python-to-html.md)
+* [How to pass arrays from python to HTML using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/pass-array-from-python-to-html.md)
+* [Using loops in jinja template using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-loops-in-jinja-template.md)
+
 ---
 
 # &#x1F4D7; Flask - PYTHON
