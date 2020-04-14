@@ -91,6 +91,13 @@
 * [Using props and children props in react](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/props-children-props.md)
 * [Using class and functional component in react](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/class-and-functional-component.md)
 
+## AXIOS - REACT
+
+* [Reading an API - Handling GET request](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/axios-get-api.md)
+
+## Graphql - REACT
+* []()
+
 # &#x1F4D7; NODE.JS
 
    Reference: [Pirple](https://pirple.thinkific.com), Udemy, Lynda
