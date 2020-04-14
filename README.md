@@ -94,6 +94,7 @@
 ## AXIOS - REACT
 
 * [Reading an API - Handling GET request](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/axios-get-api.md)
+* [Posting values to an API - Handling POST request](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/axios-post.md)
 
 ## Graphql - REACT
 * []()
