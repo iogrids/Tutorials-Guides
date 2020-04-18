@@ -1,4 +1,4 @@
-# Accessing Flask API in javascript file using fetch
+# Accessing Flask API in javascript file using fetch and CORS
 
 ```
 
