@@ -145,7 +145,7 @@
 * [How to pass variable from python to HTML file using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/pass-variable-from-python-to-html.md)
 * [How to pass arrays from python to HTML using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/pass-array-from-python-to-html.md)
 * [Using loops in jinja template using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-loops-in-jinja-template.md)
-* [Accessing Flask API in Javascript](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/accessing-python-api-in-javascript.md)
+* [Accessing Flask API in Javascript using CORS](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/accessing-python-api-in-javascript.md)
 
 ---
 
