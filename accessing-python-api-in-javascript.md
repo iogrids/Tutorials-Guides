@@ -1,4 +1,4 @@
-# Accessing python API in javascript file using fetch
+# Accessing Flask API in javascript file using fetch
 
 ```
 
