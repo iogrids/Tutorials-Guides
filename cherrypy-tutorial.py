@@ -1,3 +1,46 @@
+
+```
+import cherrypy
+
+class HelloWorld(object):
+    @cherrypy.expose
+    def index(self):
+        return "Hello World!"
+
+cherrypy.quickstart(HelloWorld())
+
+```
+
+cherrypy.quickstart() -> this is basically calling the below 4 lines or in other words the below 4 lines are replaced by a single line which is cherrypy.quickstart()
+
+```
+cherrypy.tree.mount(HelloWorld(), '/', conf)
+cherrypy.server.socker_host = "127.0.0.1"
+cherrypy.engine.start()
+logging.info('Hello World started')
+```
+
+## So what is conf?
+
+```
+cherrypy.tree.mount(HelloWorld(), '/', conf)
+```
+
+conf is a dictionary which can be used like this
+
+
+conf = {
+    '/': {
+        
+        'request.dispatch': cherrypy.dispatch.MethodDispatcher(),
+        'tools.response_headers.on': True,
+        'tools.response_headers.headers': [
+            ('content-type': 'application/json')
+         ],
+    }
+}
+
+
 # Basic Cherrypy Tutorial
 
 ```python
