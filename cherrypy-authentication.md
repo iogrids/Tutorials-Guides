@@ -1,4 +1,11 @@
-This is basic authentication in cherrypy
+There are various kinds of authentication like
+
+* Basic authentication
+* Digest authentication
+* JWT authentication
+
+
+This is an example of basic authentication in cherrypy
 
 ```python
 
