@@ -74,7 +74,7 @@ if __name__ == '__main__':
         '/': {
             'tools.auth_digest.on': True,
             'tools.auth_digest.realm': 'localhost',
-            # this function get_ha1_dict_plain() encrypts the entered usernamd and password
+            # this function get_ha1_dict_plain() encrypts the entered username and password
             'tools.auth_digest.get_ha1': auth_digest.get_ha1_dict_plain(USERS),
             'tools.auth_digest.key': 'a565c27146791cfb',
             'tools.auth_basic.accept_charset': 'UTF-8',
