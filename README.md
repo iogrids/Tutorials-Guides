@@ -146,15 +146,11 @@
 * [How to pass arrays from python to HTML using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/pass-array-from-python-to-html.md)
 * [Using loops in jinja template using Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-loops-in-jinja-template.md)
 * [Accessing Flask API in Javascript using CORS](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/accessing-python-api-in-javascript.md)
-
----
-
-# &#x1F4D7; Flask - PYTHON
-
 * [How to use forms in flask](https://gitlab.com/playground6/python/-/tree/master/creating-forms-in-python)
 * [Accessing variables or arrays declared from flask in HTML](https://gitlab.com/playground6/python/snippets/1958291)
 * [Accessing values passed through query string in Flask](https://gitlab.com/playground6/python/snippets/1958069)
 * [Simple hello world in Flask](https://gitlab.com/playground6/python/snippets/1958058)
+
 ---
 # &#x1F4D7; AMAZON AWS
 
