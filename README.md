@@ -135,7 +135,7 @@
 * [Cherrypy Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Flask Tutorials](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/flask-tutorials.md)
 
- ## &#x1F4D7; FLASK
+# &#x1F4D7; FLASK
 
 * [Hello world in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/hellow-world-flask.md)
 * [Dynamic routing in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/flask-dynamic-routing.md)
@@ -150,6 +150,11 @@
 * [Accessing variables or arrays declared from flask in HTML](https://gitlab.com/playground6/python/snippets/1958291)
 * [Accessing values passed through query string in Flask](https://gitlab.com/playground6/python/snippets/1958069)
 * [Simple hello world in Flask](https://gitlab.com/playground6/python/snippets/1958058)
+
+---
+
+# &#x1F4D7; Cherrypy
+* [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/90294026d09c8f104b61c64c2760be0279e9afa8/cherrypy-basic-routing.md)
 
 ---
 # &#x1F4D7; AMAZON AWS
