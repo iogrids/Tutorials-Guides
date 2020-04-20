@@ -5,12 +5,11 @@ There are various kinds of authentication like
 * JWT authentication
 
 
-"""
-  Basic Authentication: If a visitor enters username and password, the entered username 
-  and password send to the server is not encrypted. 
-  Digest Authentication: If a visitor enters username and password, the entered username 
-  and password send to the server is encrypted using a hash function. 
-"""
+
+* Basic Authentication: If a visitor enters username and password, the entered username and password send to the server is not encrypted. 
+ 
+* Digest Authentication: If a visitor enters username and password, the entered username and password send to the server is encrypted using a hash function. 
+
 
 
 This is an example of basic authentication in cherrypy
