@@ -155,7 +155,7 @@
 
 # &#x1F4D7; Cherrypy
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/90294026d09c8f104b61c64c2760be0279e9afa8/cherrypy-basic-routing.md)
-
+* [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
 ---
 # &#x1F4D7; AMAZON AWS
 
