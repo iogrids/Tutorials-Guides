@@ -157,7 +157,7 @@
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
 * [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
 * [Load CSS file using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
-* [Authentication using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-authentication.md)
+* [Authentication using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
 
 ---
 # &#x1F4D7; AMAZON AWS
