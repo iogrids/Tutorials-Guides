@@ -1,4 +1,4 @@
-```
+```python
 import cherrypy
 from jinja2 import Environment, FileSystemLoader
 
