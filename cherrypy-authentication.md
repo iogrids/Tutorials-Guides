@@ -5,6 +5,14 @@ There are various kinds of authentication like
 * JWT authentication
 
 
+"""
+  Basic Authentication: If a visitor enters username and password, the entered username 
+  and password send to the server is not encrypted. 
+  Digest Authentication: If a visitor enters username and password, the entered username 
+  and password send to the server is encrypted using a hash function. 
+"""
+
+
 This is an example of basic authentication in cherrypy
 
 ```python
@@ -40,5 +48,41 @@ if __name__ == '__main__':
         }
     }
     cherrypy.quickstart(SecureApp(), '/', conf)
+
+```
+
+This is an example of digest authentication in cherrypy
+
+```python
+
+import cherrypy
+from cherrypy.lib import auth_digest
+
+USERS = {
+    'admin': 'Start!123',
+    'jeriljose': 'password123'
+}
+
+
+class SecureApp(object):
+    @cherrypy.expose
+    def index(self):
+        return 'Successfull authentication!'
+
+
+if __name__ == '__main__':
+    conf = {
+        '/': {
+            'tools.auth_digest.on': True,
+            'tools.auth_digest.realm': 'localhost',
+            # this function get_ha1_dict_plain() encrypts the entered usernamd and password
+            'tools.auth_digest.get_ha1': auth_digest.get_ha1_dict_plain(USERS),
+            'tools.auth_digest.key': 'a565c27146791cfb',
+            'tools.auth_basic.accept_charset': 'UTF-8',
+        }
+
+    }
+    cherrypy.quickstart(SecureApp(), '/', conf)
+
 
 ```
