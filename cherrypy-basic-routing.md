@@ -1,6 +1,6 @@
 # Cherry basic routing
 
-```
+```python
 import cherrypy
 
 
