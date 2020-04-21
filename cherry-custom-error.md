@@ -1,4 +1,3 @@
-
 # You can raise HTTP error and also mentioning error code using cherrypy.HTTPError. 
 
 ```python
@@ -21,7 +20,7 @@ class ErrorDemo(object):
 
     @cherrypy.expose
     def simple(self):
-        raise cherrypy.HTTPRedirect('/')
+        raise cherrypy.HTTPError(401,'Unauthorized access!')
 
     @cherrypy.expose
     def file(self, path):
