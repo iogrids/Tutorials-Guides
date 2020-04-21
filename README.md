@@ -164,6 +164,7 @@
 * [Using cherrpy logging to log errors and to log access to resources](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-logging.md)
 * [Making cherrypy run on multiple ports](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/run-cherrypy-on-multiple-ports.md)
 * [Raise custom HTTP error in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherry-custom-error.md)
+* [Using cherrypy hook system](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-hook.md)
 
 ---
 
