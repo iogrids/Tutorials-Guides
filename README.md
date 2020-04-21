@@ -159,6 +159,7 @@
 * [Authentication using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
 * [File downloads using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
 * [Handling aliases or similiar multiple routes in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-alias.md)
+* [Using external configuration file in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-external-conf-file-in-cherrypy.md)
 
 ---
 # &#x1F4D7; AMAZON AWS
