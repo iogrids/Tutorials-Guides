@@ -35,7 +35,7 @@ cherrypy.quickstart(Root())
 
 # Using For loop in jinja template to get values from the python dictionary
 
-```
+```html
 <h1>{{ salutation }} {{ target }}</h1>
 
 <ul>
