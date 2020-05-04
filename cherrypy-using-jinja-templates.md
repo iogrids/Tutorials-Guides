@@ -53,7 +53,7 @@ cherrypy.quickstart(Root())
 ```
 <h2> Welcome to this blog </h2>
 
-{% if salutation %}
+{% if target == 'jeril' %}
 <p> Yes, available </p>
 {% else %}
 <p> Not available </p>
