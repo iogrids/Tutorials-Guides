@@ -155,19 +155,19 @@
 # &#x1F4D7; Cherrypy
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
 * [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
-* [Load CSS file using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
-* [Authentication using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
-* [File downloads using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
-* [Handling aliases or similiar multiple routes in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-alias.md)
-* [Using external configuration file in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-external-conf-file-in-cherrypy.md)
-* [Returning JSON using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/returning-json-cherrypy.md)
-* [Using cherrpy logging to log errors and to log access to resources](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-logging.md)
-* [Making cherrypy run on multiple ports](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/run-cherrypy-on-multiple-ports.md)
-* [Raise custom HTTP error in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherry-custom-error.md)
-* [Using cherrypy hook system](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-hook.md)
-* [Using FORMS in cherrypy - Rendering forms on the server side](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-using-forms.md)
-* [Using session in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-sessions.md)
-
+* [Load CSS file using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
+* [Authentication using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
+* [File downloads using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
+* [Handling aliases or similiar multiple routes in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-alias.md)
+* [Using external configuration file in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-external-conf-file-in-cherrypy.md)
+* [Returning JSON using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/returning-json-cherrypy.md)
+* [Using Cherrpy logging to log errors and to log access to resources](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-logging.md)
+* [Making Cherrypy run on multiple ports](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/run-cherrypy-on-multiple-ports.md)
+* [Raise custom HTTP error in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherry-custom-error.md)
+* [Using Cherrypy hook system](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-hook.md)
+* [Using FORMS in Cherrypy - Rendering forms on the server side](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-using-forms.md)
+* [Using session in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-sessions.md)
+* [Handling CSS, Images and Javascript in Cherrypy ](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-css-js-cherrypy.md)
 ---
 
 # &#x1F4D7; AMAZON AWS
