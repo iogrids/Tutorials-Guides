@@ -60,3 +60,7 @@ cherrypy.quickstart(Root())
 {% endif %}
 
 ```
+
+# Template inheritance in jinja2. Click to play the video
+
+[![Click to play video](http://img.youtube.com/vi/DxI4jnb5m1Q/0.jpg)](http://www.youtube.com/watch?v=DxI4jnb5m1Q "Python and Flask - Template Inheritance in Jinja2")
