@@ -165,6 +165,7 @@
 * [Making cherrypy run on multiple ports](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/run-cherrypy-on-multiple-ports.md)
 * [Raise custom HTTP error in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherry-custom-error.md)
 * [Using cherrypy hook system](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-hook.md)
+* [Using FORMS in cherrypy - Rendering forms on the server side](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-using-forms.md)
 
 ---
 
