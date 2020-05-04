@@ -50,7 +50,7 @@ cherrypy.quickstart(Root())
 
 # Using conditional statements in Jinja2
 
-```
+```html
 <h2> Welcome to this blog </h2>
 
 {% if target == 'jeril' %}
