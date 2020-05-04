@@ -6,9 +6,9 @@ closes the window then session variable is lost.
 
 The below code shows how to utilize session in cherrypy. 
 
-In the /index page, a form is shown. index page calls the generate function
-In the /generate function or page a random string is generated based on the string length provided in the index page. This value is then stored in the session variable
-In the /display page, the value is displayed from the session variable
+* In the /index page, a form is shown. index page calls the generate function
+* In the /generate function or page a random string is generated based on the string length provided in the index page. This value is then stored in the session variable
+* In the /display page, the value is displayed from the session variable
 
 
 ```python
