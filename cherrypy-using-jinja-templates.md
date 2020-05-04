@@ -33,7 +33,7 @@ cherrypy.quickstart(Root())
 
 ---
 
-# Using the variables from the python file in the HTML file
+# Using For loop in jinja template to get values from the python dictionary
 
 ```
 <h1>{{ salutation }} {{ target }}</h1>
