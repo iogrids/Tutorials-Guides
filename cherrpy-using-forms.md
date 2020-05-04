@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 ---
 
-# 2. Cherrypy FORMS using event listener. Adding action to button
+# 2. Cherrypy forms using event listener. Adding action to button
 
 ```python
 
