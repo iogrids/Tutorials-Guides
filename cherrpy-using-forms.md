@@ -1,4 +1,4 @@
-# Cherrpy forms using server side rendering
+# 1. Cherrpy forms using server side rendering
 
 Server side rendering meaning the FORM is rendered on the server side. 
 
@@ -36,7 +36,7 @@ if __name__ == '__main__':
 
 ---
 
-# cherrypy FORMS using event listener. Adding action to button
+# 2. Cherrypy FORMS using event listener. Adding action to button
 
 ```python
 
