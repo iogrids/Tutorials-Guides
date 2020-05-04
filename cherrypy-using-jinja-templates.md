@@ -1,3 +1,5 @@
+# Python example using Jinja2 templates 
+
 ```python
 import cherrypy
 from jinja2 import Environment, FileSystemLoader
@@ -29,7 +31,9 @@ cherrypy.quickstart(Root())
 
 ```
 
-Using the variables from the python file in the HTML file
+---
+
+# Using the variables from the python file in the HTML file
 
 ```
 <h1>{{ salutation }} {{ target }}</h1>
@@ -39,5 +43,20 @@ Using the variables from the python file in the HTML file
     <li class="collection-item"><a href="#">{{galaxy}}</a></li>
     {% endfor %}
 </ul>
+
+```
+
+---
+
+# Using conditional statements in Jinja2
+
+```
+<h2> Welcome to this blog </h2>
+
+{% if salutation %}
+<p> Yes, available </p>
+{% else %}
+<p> Not available </p>
+{% endif %}
 
 ```
