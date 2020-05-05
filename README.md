@@ -168,6 +168,8 @@
 * [Using FORMS in Cherrypy - Rendering forms on the server side](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-using-forms.md)
 * [Using session in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-sessions.md)
 * [Handling CSS, Images and Javascript in Cherrypy ](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-css-js-cherrypy.md)
+* [GET & POST example in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/get-post-in-cherrypy.md)
+
 ---
 
 # &#x1F4D7; AMAZON AWS
