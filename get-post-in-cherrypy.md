@@ -1,5 +1,7 @@
 # Example of GET & POST in cherrypy
 
+When GET is used, it passes the FORM inputs via URL. When GET is used users can bookmark the URL
+When POST if used, the FORM values are hidden from the user. When POST is used bookmarking is not possible
 
 ```python
 
