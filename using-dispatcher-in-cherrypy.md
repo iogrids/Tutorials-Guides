@@ -1,5 +1,10 @@
 # Using Tailored dispatcher or custom dispatcher in cherrypy
 
+# Refer this blog for further understanding and update this post
+
+# https://appmecha.wordpress.com/?s=cherrypy&submit=Search
+# https://appmecha.wordpress.com/2008/10/27/cherrypy-gae-routing-2/
+
 ```python
 
 """
