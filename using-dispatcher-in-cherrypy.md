@@ -6,11 +6,11 @@ There are 3 kinds of dispatcher in cherrypy
 - Method Dispatcher - class in cherrypy library
 - Dispatcher        - class in cherrypy library
 
-The below code is an example of routes dispatcher - 'request.dispatch': ForceLowerDispatcherURL() 
+* The below code is an example of routes dispatcher - 'request.dispatch': ForceLowerDispatcherURL() 
 
-In routes dispatcher we map the URL to a specific method
+* In routes dispatcher we map the URL to a specific method
 
-The below is an example use-case of in what scenerios we can use routes dispatcher
+* The below is an example use-case of in what scenerios we can use routes dispatcher
 
 
 If you look at the below code
@@ -21,11 +21,11 @@ If you look at the below code
       pass
 ```
 
-you can call the generate() function like this http://localhost:8080/generate?length=10
-what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no GENERATE URL
-So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called
-as a hook before calling the generate() function. This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
-To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
+* you can call the generate() function like this http://localhost:8080/generate?length=10
+* what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no GENERATE URL
+* So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called
+* as a hook before calling the generate() function. This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
+* To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
 
 
 
@@ -37,9 +37,10 @@ Check the below function again
       pass
 ```
       
-Have you ever wondered how does this function gets processed? This function has a single argument which is length and what if it has 
-many other arguments like height, width, breadth. How does the processing function understand that it has only a single argument and if there are many arguments how does the processing
-function know it has many arguments? The internal function in cherrypy which processes the generate() function is called as dispatcher. An example of dispatcher() function can be shown like this
+Have you ever wondered how does this function gets processed? 
+This function has a single argument which is length and what if it has many other arguments like height, width, breadth. 
+How does the processing function understand that it has only a single argument and if there are many arguments how does the processing function know it has many arguments? 
+The internal function in cherrypy which processes the generate() function is called as dispatcher. An example of dispatcher() function can be shown like this
 
 ```python
 def dispatcher(length, *args, **kwargs):
