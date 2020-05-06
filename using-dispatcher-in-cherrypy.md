@@ -23,8 +23,8 @@ If you look at the below code
 
 * you can call the generate() function like this http://localhost:8080/generate?length=10
 * what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no GENERATE URL
-* So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called
-* as a hook before calling the generate() function. This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
+* So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called as a hook before calling the generate() function. 
+* This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
 * To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
 
 
