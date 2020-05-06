@@ -42,6 +42,7 @@ Note: *args    - Collects arguments into an array
       **kwargs - Collects arguments into a dictionary
 """
 
+```
 Finally these are the basic set of arguments available in python
 
 | ARGUMENT SPECIFICATION | INTERPRETATION |
@@ -51,6 +52,7 @@ Finally these are the basic set of arguments available in python
 | def fn(**args): | Collect keyword arguments into a dictionary |
 
 
+```python
 
 import random
 import string
