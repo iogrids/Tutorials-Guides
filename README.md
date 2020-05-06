@@ -129,11 +129,6 @@
 * [Serving dynamic files & partials(header partial, footer partial etc) using ExpressJs - Handle Bar functions used ```hbs.registerPartials()```, ```hbs.registerHelper()```](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/JSON-rendering-dynamic-template-partials.md)
 ---
 
-# &#x1F4D7; PYTHON - For Web Scraping & Data Analysis
-
-* [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
-* [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
-
 # &#x1F4D7; FLASK
 
 * [Flask Tutorials](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/flask-tutorials.md)
@@ -149,6 +144,12 @@
 * [How to use forms in flask](https://gitlab.com/playground6/python/-/tree/master/creating-forms-in-python)
 * [Accessing variables or arrays declared from flask in HTML](https://gitlab.com/playground6/python/snippets/1958291)
 
+---
+
+# &#x1F4D7; PYTHON
+
+* [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
+* [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
 
 ---
 
