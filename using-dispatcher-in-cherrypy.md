@@ -17,6 +17,29 @@ as a hook before calling the generate() function. This hook is called a dispatch
 To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
 """
 
+"""
+Check the function   def generate(self, length=8):   Have you ever wondered how does this function gets processed? This function has a single argument which is length and what if it has 
+many other arguments like height, width, breadth. How does the processing function understand that it has only a single argument and if there are many arguments how does the processing
+function know it has many arguments? The internal function in cherrypy which processes the generate() function is called as dispatcher. An example of dispatcher() function can be shown like this
+
+def dispatcher(length, *args, **kwargs):
+   // process args
+   // process kwargs
+   
+   
+When you call 
+
+  generate(self, length = 8, 43, 45, 56, key1 = 'value1', key2 = 'value2', key3 = 'value3'):
+  
+     pass
+     
+  
+8 in generate() function is passed to the length argument in dispatcher() function 
+43, 45, 56 is passed to the *args in dispatcher() function
+key1 = 'value1', key2 = 'value2', key3 = 'value3'  is passed to **kwargs in dispatcher() function
+
+"""
+
 
 import random
 import string
