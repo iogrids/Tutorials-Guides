@@ -4,7 +4,10 @@ How to create a function which accepts multiple arguments?
 
 In situations where we do not know how many inputs we will recieve we can use *args and **kwargs.
 
-Say for example we call a external API for Geo-location like state, city, pin-code. Tomorrow they may update the API with another value like population. To recieve these inputs we will have to create a function with state, city, pin-code, population as arguments and keep updating our arguments with their newest updates. In siutations like these where we do not know or can conclude on a predefined set of values recieved, we can use *args and **kwargs. 
+Say for example we call a external API for Geo-location like state, city, pin-code. Tomorrow they may update the API with another value like population. 
+
+To recieve these inputs we will have to create a function with state, city, pin-code, population as arguments and keep updating our arguments with their newest updates. 
+In siutations like these where we do not know or can conclude on a predefined set of values recieved, we can use *args and **kwargs. 
 
 Look at the code below
 
