@@ -174,6 +174,7 @@
 * [Handling CSS, Images and Javascript in Cherrypy ](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-css-js-cherrypy.md)
 * [GET & POST example in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/get-post-in-cherrypy.md)
 * [Dispatcher in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-dispatcher-in-cherrypy.md)
+* [Using **kwargs in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-kwargs-in-cherrypy.md)
 
 ---
 
