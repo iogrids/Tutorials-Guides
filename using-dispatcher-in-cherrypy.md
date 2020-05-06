@@ -38,6 +38,8 @@ When you call
 43, 45, 56 is passed to the *args in dispatcher() function
 key1 = 'value1', key2 = 'value2', key3 = 'value3'  is passed to **kwargs in dispatcher() function
 
+Note: *args    - Collects arguments into an array
+      **kwargs - Collects arguments into a dictionary
 """
 
 
