@@ -131,12 +131,12 @@
 
 # &#x1F4D7; PYTHON - For Web Scraping & Data Analysis
 
-* [Python Bootcamp](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
-* [Cherrypy Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
-* [Flask Tutorials](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/flask-tutorials.md)
+* [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
+* [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
 
 # &#x1F4D7; FLASK
 
+* [Flask Tutorials](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/flask-tutorials.md)
 * [Hello world in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/hellow-world-flask.md)
 * [Dynamic routing in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/flask-dynamic-routing.md)
 * [Using query string in Flask](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/query-string-flask.md)
@@ -153,6 +153,8 @@
 ---
 
 # &#x1F4D7; Cherrypy
+
+* [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
 * [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
 * [Load CSS file using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
