@@ -10,33 +10,49 @@ The below code is an example of routes dispatcher - 'request.dispatch': ForceLow
 
 In routes dispatcher we map the URL to a specific method
 
-```python
+The below is an example use-case of in what scenerios we can use routes dispatcher
 
-"""
+
 If you look at the below code
 
-you can call the generate() function like this http://localhost:8080/generate?length=10
-what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters).
-So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called
-as a hook before calling the generate() function. This hook is called a dispatcher in cherrypy which is runs prior to running the generate() function.
-To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
-"""
+```python
 
-"""
-Check the function   def generate(self, length=8):   Have you ever wondered how does this function gets processed? This function has a single argument which is length and what if it has 
+   def generate(self, length=8):
+      pass
+```
+
+you can call the generate() function like this http://localhost:8080/generate?length=10
+what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no GENERATE URL
+So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called
+as a hook before calling the generate() function. This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
+To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
+
+
+
+Check the below function again
+
+```python
+
+   def generate(self, length=8):
+      pass
+```
+      
+Have you ever wondered how does this function gets processed? This function has a single argument which is length and what if it has 
 many other arguments like height, width, breadth. How does the processing function understand that it has only a single argument and if there are many arguments how does the processing
 function know it has many arguments? The internal function in cherrypy which processes the generate() function is called as dispatcher. An example of dispatcher() function can be shown like this
 
+```python
 def dispatcher(length, *args, **kwargs):
    // process args
    // process kwargs
-   
+```
    
 When you call 
 
+```python
   generate(self, length = 8, 43, 45, 56, key1 = 'value1', key2 = 'value2', key3 = 'value3'):
-  
      pass
+```
      
   
 8 in generate() function is passed to the length argument in dispatcher() function 
@@ -45,9 +61,8 @@ key1 = 'value1', key2 = 'value2', key3 = 'value3'  is passed to **kwargs in disp
 
 Note: *args    - Collects arguments into an array or tuple
       **kwargs - Collects arguments into a dictionary
-"""
 
-```
+
 
 Finally these are the basic set of arguments available in python
 
