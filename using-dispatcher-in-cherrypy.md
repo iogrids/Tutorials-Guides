@@ -1,19 +1,9 @@
-# Dispatcher
+# Routes Dispatcher
 
-There are 3 kinds of dispatcher in cherrypy
-
-- Routes Dispatcher - class in cherypy library   
-- Method Dispatcher - class in cherrypy library
-- Dispatcher        - class in cherrypy library
-
-* The below code is an example of routes dispatcher - 'request.dispatch': ForceLowerDispatcherURL() 
-
-* In routes dispatcher we map the URL to a specific method
-
-* The below is an example use-case of in what scenerios we can use routes dispatcher
+Routes dispatcher is useful if you want to execute a function before invoking a URL or in other words routes dispatcher acts as a hook before a specific URL is called
 
 
-If you look at the below code
+Look at the code below code
 
 ```python
 
@@ -21,8 +11,10 @@ If you look at the below code
       pass
 ```
 
-* you can call the generate() function like this http://localhost:8080/generate?length=10
-* what if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no GENERATE URL
+## Dispatcher use-case
+
+* You can call the generate() function like this http://localhost:8080/generate?length=10
+* What if we call the same function like this http://localhost:8080/GENERATE?length=8  (GENERATE in capital letters). We will get error because there is no URL as /GENERATE
 * So in this case we want GENERATE to be converted as lowercase like generate. So before invoking the URL /generate another function should be called as a hook before calling the generate() function. 
 * This hook is called a dispatcher in cherrypy, which runs prior to running the generate() function.
 * To use the dispatcher hook it should be mentioned in the conf{'request.dispatch': ForceLowerDispatcherURL()}
@@ -59,3 +51,11 @@ if __name__ == '__main__':
     cherrypy.quickstart(StringGenerator(), '/', conf)
     
 ```
+
+Finally
+
+There are 3 kinds of dispatcher in cherrypy
+
+- Routes Dispatcher - class in cherypy library   
+- Method Dispatcher - class in cherrypy library
+- Dispatcher        - class in cherrypy library
