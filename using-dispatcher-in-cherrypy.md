@@ -1,9 +1,14 @@
-# Using Tailored dispatcher or custom dispatcher in cherrypy
+# Dispatcher
 
-# Refer this blog for further understanding and update this post
+There are 3 kinds of dispatcher in cherrypy
 
-# https://appmecha.wordpress.com/?s=cherrypy&submit=Search
-# https://appmecha.wordpress.com/2008/10/27/cherrypy-gae-routing-2/
+- Routes Dispatcher - class in cherypy library   
+- Method Dispatcher - class in cherrypy library
+- Dispatcher        - class in cherrypy library
+
+The below code is an example of routes dispatcher - 'request.dispatch': ForceLowerDispatcherURL() 
+
+In routes dispatcher we map the URL to a specific method
 
 ```python
 
