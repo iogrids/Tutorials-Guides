@@ -22,7 +22,7 @@ In siutations where we do not know or can conclude on the number of values recie
   
   cherrypy.quickstart(HelloWorld())
   
-```python
+```
 
   Now call the above as
 
