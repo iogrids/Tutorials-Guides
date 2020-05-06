@@ -24,7 +24,7 @@ When you call
      
   
 * 8 in generate() function is passed to the length argument, so length = 10 
-* 43, 45, 56 is passed to the *args parameter, so *args = [43,45,56]. You can add any amount of numbers like 23, 56, 67 and it will be captured in *args
+* 43, 45, 56 is passed to the *args parameter, so ```python *args = [43,45,56]```. You can add any amount of numbers like 23, 56, 67 and it will be captured in ```python *args```
 * ```python key1 = 'value1', key2 = 'value2', key3 = 'value3' ```  is passed to **kwargs, so ``` python **kwargs = {"key1":"value1","key2":"value2","key3":"value3"}```
 
 Note: 
