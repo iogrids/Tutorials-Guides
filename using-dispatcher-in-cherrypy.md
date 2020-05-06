@@ -42,17 +42,14 @@ Note: *args    - Collects arguments into an array
       **kwargs - Collects arguments into a dictionary
 """
 
-"""
 Finally these are the basic set of arguments available in python
 
 | ARGUMENT SPECIFICATION | INTERPRETATION |
-| ------ | ------ |
 | def fn(arg): | Mandatory positional or keyword argument |
 | def fn(arg=value): | Optional positional or keyword argument with a default value |
 | def fn(*args): | Collect positional arguments into an array |
 | def fn(**args): | Collect keyword arguments into a dictionary |
 
-"""
 
 
 import random
