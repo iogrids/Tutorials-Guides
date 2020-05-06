@@ -159,6 +159,7 @@
 * [Authentication using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
 * [File downloads using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
 * [Handling aliases or similiar multiple routes in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-alias.md)
+* [Multiple classes in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/running-multiple-class-in-cherrypy.md)
 * [Using external configuration file in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-external-conf-file-in-cherrypy.md)
 * [Returning JSON using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/returning-json-cherrypy.md)
 * [Using Cherrpy logging to log errors and to log access to resources](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-logging.md)
