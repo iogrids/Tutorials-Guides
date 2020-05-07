@@ -1,8 +1,10 @@
-# In this example we will create a FORM in REACT and when user submits the FORM, the details are sent to the cherrypy server.
+# Cherrypy, REACT, CORS, AXIOS example
+
+In this example we will create a FORM in REACT and when user submits the FORM, the details are sent to the cherrypy server.
 
 From REACT to call the cherrpy server we will use axios in react
 
-We will also understand how CORS works in cherrypy
+We will also understand how CORS works in cherrypy. CORS allows us to access Cherrypy in REACT
 
 ```react
 
@@ -84,5 +86,44 @@ export default class CreateUser extends Component {
         )
     }
 }
+
+```
+
+Now lets create the PYTHON API using cherrypy
+
+```python
+import cherrypy
+import cherrypy_cors
+
+class HelloWorld(object):
+    @cherrypy.expose
+    @cherrypy.tools.json_in()
+    @cherrypy.tools.json_out()
+    def index(self):
+        
+        if cherrypy.request.method == 'OPTIONS':
+            cherrypy_cors.preflight(allowed_methods=['GET', 'POST'])
+
+        if cherrypy.request.method == 'POST':
+            name = cherrypy.request.json.get('name')
+            age = cherrypy.request.json.get('age')
+            sex = cherrypy.request.json.get('sex')
+            print(name)
+            print(age)
+            print(sex)
+            return {'name': name, 
+                    'age': age,
+                    'sex': sex
+                   }
+
+if __name__ == '__main__':
+    cherrypy_cors.install()
+    config = { 
+        '/': {
+            'cors.expose.on': True,
+         },
+    }
+    cherrypy.quickstart(HelloWorld(),'/', config)
+
 
 ```
