@@ -158,6 +158,7 @@
 * [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
 * [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
+* [Forms using Cherrypy and REACT - uses axios, cherrypy, REACT, CORS, POST-REQUEST](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-cherrypy-react-axios-cors-post-request.md)
 * [Load CSS file using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
 * [Authentication using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
 * [File downloads using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
