@@ -50,7 +50,8 @@ export default class CreateUser extends Component {
             age: this.state.age,
             sex: this.state.sex
         };
-
+     
+        //cherrypy runs on PORT 8080 or the POST api is accessible on PORT 8080
         axios.post('http://localhost:8080', userObject)
             .then((res) => {
                 console.log(res.data)
