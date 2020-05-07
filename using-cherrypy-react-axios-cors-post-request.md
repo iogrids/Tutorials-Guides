@@ -102,6 +102,7 @@ class HelloWorld(object):
     def index(self):
         
         if cherrypy.request.method == 'OPTIONS':
+            # This is a request that browser sends in CORS prior to sending a real request so set up extra headers for a pre-flight OPTIONS request as shown below
             cherrypy_cors.preflight(allowed_methods=['GET', 'POST'])
 
         if cherrypy.request.method == 'POST':
