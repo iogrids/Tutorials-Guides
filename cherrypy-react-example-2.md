@@ -17,8 +17,9 @@ and then use
 
 ## Client code for POST request to an API
 
-
-```react  - filename - CreateUser.js
+ - filename - CreateUser.js
+ 
+```react 
 // ** create-user.component.js ** //
 
 import React, { Component } from 'react';
@@ -103,7 +104,9 @@ export default class CreateUser extends Component {
 
 ## Client code for GET request to an API
 
-```react  - filename - GetUser.js
+- filename - GetUser.js
+
+```react  
 
 import React from 'react';
 import './CreateUser'
