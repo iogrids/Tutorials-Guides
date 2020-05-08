@@ -177,6 +177,7 @@
 * [GET & POST example in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/get-post-in-cherrypy.md)
 * [Dispatcher in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-dispatcher-in-cherrypy.md)
 * [Using **kwargs in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-kwargs-in-cherrypy.md)
+* [GET, POST, PUT, DELETE, OPTIONS using cherrypy, mongodb, pymongo](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-cherrypy-mongodb.md)
 
 ---
 
