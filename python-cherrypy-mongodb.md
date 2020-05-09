@@ -62,6 +62,13 @@ def cleanup_database():
     pass
     
 
+           """" 
+           Note: request.dispatch': cherrypy.dispatch.MethodDispatcher() might not be required here. cherrypy.dispatch.MethodDispatcher() tells cherrypy not to do routing for us and we will do the 
+           routing ourselves. Here cherrypy does the routing for us since it automatically identifies which is GET request, which is POST request and responds automatically.
+           So try removing this line and run the same application and check whether it works
+           
+           """
+           
 if __name__ == '__main__':
     cherrypy_cors.install()
     conf = {
