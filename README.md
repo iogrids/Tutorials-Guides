@@ -184,6 +184,7 @@
 * [Nesting functions in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/nesting-functions-in-cherrypy.md)
 * [Storing functions in a list using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/storing-functions-in-list.md)
 * [Using python decorators in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-python-decorators-in-cherrypy.md)
+* [Using multiple python decorators in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-multiple-python-decorators-cherrypy.md)
 
 ---
 
