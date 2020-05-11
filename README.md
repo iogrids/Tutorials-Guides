@@ -153,7 +153,7 @@
 
 ---
 
-# &#x1F4D7; Cherrypy
+# &#x1F4D7; Cherrypy - Example snippets in Cherrypy
 
 * [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
