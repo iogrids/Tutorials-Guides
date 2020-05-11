@@ -1,5 +1,7 @@
-# Python decorator which recieves value like this http://localhost:8080/?value=jeril 
-# Result - Passed value will be made bold
+# Using python decorators with querystring
+
+Python decorator which recieves value like this http://localhost:8080/?value=jeril 
+Result - Passed value will be made bold
 
 """
  In the below code index() calls the decorator uppercase(). Now index() is automatically passed
