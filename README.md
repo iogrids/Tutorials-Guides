@@ -180,7 +180,7 @@
 * [GET, POST, PUT, DELETE, OPTIONS using cherrypy, mongodb, pymongo](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-cherrypy-mongodb.md)
 * [Mixing class & function in cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/mixing-class-function-cherrypy.md)
 * [How to call a function in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/calling-function-cherrypy.md)
-* [Using python decorators with QueryString](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-python-decorators-with-query-string.md)
+* [Using python decorators with QueryString using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-python-decorators-with-query-string.md)
 
 ---
 
