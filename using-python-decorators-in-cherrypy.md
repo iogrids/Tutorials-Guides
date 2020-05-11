@@ -1,13 +1,14 @@
 # Using python decorators in Cherrypy
 
+
+```python
+
 """
  In the below code index() calls the decorator uppercase(). Now index() is automatically passed
  to uppercase(index) like so. 
  RESULT: jeril would be turned to JERIL
 """
 
-
-```python
 import cherrypy
 from cherrypy import tools
 from functools import wraps
