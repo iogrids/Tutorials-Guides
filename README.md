@@ -158,8 +158,6 @@
 * [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
 * [Cherrypy using jinja2 templates](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-jinja-templates.md)
-* [Forms using Cherrypy and REACT - uses axios, cherrypy, REACT, CORS, POST-REQUEST](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-cherrypy-react-axios-cors-post-request.md)
-* [Forms using Cherrypy and REACT - uses axios, cherrypy, REACT, CORS, POST & GET - Example 2](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-react-example-2.md)
 * [Load CSS file using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/read-css-file-cherrypy.md)
 * [Authentication using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-authentication.md)
 * [File downloads using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/file-downloads-cherrypy.md)
@@ -174,10 +172,15 @@
 * [Using FORMS in Cherrypy - Rendering forms on the server side](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrpy-using-forms.md)
 * [Using session in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-using-sessions.md)
 * [Handling CSS, Images and Javascript in Cherrypy ](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-css-js-cherrypy.md)
-* [GET & POST example in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/get-post-in-cherrypy.md)
 * [Dispatcher in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-dispatcher-in-cherrypy.md)
 * [Using **kwargs in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-kwargs-in-cherrypy.md)
+
+###### Using REST style of programming in Cherrypy (GET, POST, PUT, DELETE, UPDATE)
+
 * [GET, POST, PUT, DELETE, OPTIONS using cherrypy, mongodb, pymongo](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-cherrypy-mongodb.md)
+* [GET & POST example in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/get-post-in-cherrypy.md)
+* [Forms using Cherrypy and REACT - uses axios, cherrypy, REACT, CORS, POST-REQUEST](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-cherrypy-react-axios-cors-post-request.md)
+* [Forms using Cherrypy and REACT - uses axios, cherrypy, REACT, CORS, POST & GET - Example 2](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-react-example-2.md)
 
 ###### Using Functional Style of Programming in Cherrypy
 
