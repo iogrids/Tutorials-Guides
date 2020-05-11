@@ -3,13 +3,13 @@
 Python decorator which recieves value like this http://localhost:8080/?value=jeril 
 Result - Passed value will be made bold
 
+```python
+
 """
  In the below code index() calls the decorator uppercase(). Now index() is automatically passed
  to uppercase(index) like so. 
  RESULT: jeril would be turned to JERIL
 """
-
-```python
 
 import cherrypy
 from cherrypy import tools
