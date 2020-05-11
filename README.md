@@ -194,6 +194,14 @@
 
 ---
 
+# &#x1F4D7; Using Scrapy in Python
+
+* [Scrapy simple example in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/scrapy-scrap-countries.md)
+
+
+--- 
+
+
 # &#x1F4D7; AMAZON AWS
 
 * [AWS CLI COMMANDS](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/aws-CLI-commands.md)
