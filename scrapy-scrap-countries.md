@@ -1,9 +1,14 @@
-# Using scrapy to scrap list of countries
+# Using scrapy to scrape list of countries
 
+
+### Step 1: Scaffold the project & setup the crawler
 ```
 scrapy startproject <projectname>   # scrapy startproject worldometers
 scrapy crawl countries
 ```
+
+
+### Create a file in worldometers/worldometers/spiders/countries.py
 
 ```python
 import scrapy
