@@ -182,6 +182,7 @@
 * [How to call a function in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/calling-function-cherrypy.md)
 * [Using python decorators with QueryString using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-python-decorators-with-query-string.md)
 * [Nesting functions in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/nesting-functions-in-cherrypy.md)
+* [Storing functions in a list using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/storing-functions-in-list.md)
 
 ---
 
