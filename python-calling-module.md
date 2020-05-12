@@ -4,6 +4,7 @@ Lets create a module called mymod.py with the below code
 
 ### mymod.py
 
+
 ```python
 var = 10
 
@@ -11,11 +12,9 @@ def dothis():
 	print("executing the dothis() function")
 ```
 
----
 
-Lets create another python file and access the above function and variables in the below code
+### importing the above module  - app.py
 
-### importing the above module
 
 ```python
 
