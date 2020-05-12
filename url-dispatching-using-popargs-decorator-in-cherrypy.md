@@ -5,7 +5,7 @@ OPTION 2: The popargs decorator
 
 This is an example using popargs decorator
 
-```
+```python
 import cherrypy
 
 # takes the first segment and store it into a parameter named band_name
