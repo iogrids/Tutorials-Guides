@@ -57,6 +57,7 @@
 * [How to set and get elements of a DIV using innerHtml](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/JS-working-with-dom-elements.md#to-get-the-elements-of-div---use-innerhtml)
    
 ## Mixing Javascript & HTML Sample Code
+
 * [Mixing Javascript & HTML](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/mixing%20javascript%20and%20HTML.md)
 
 ## Javascript & JSON, Arrays, Objects
@@ -153,7 +154,7 @@
 
 ###### OOPS Examples
 
-* [Calling a module in python and importing functions and variables from the module](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-calling-module.md)
+* [Simple class module example using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-class-module-example-cherrypy.md)
 
 ###### Cherrypy - Example snippets in Cherrypy
 
