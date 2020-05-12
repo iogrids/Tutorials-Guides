@@ -151,9 +151,12 @@
 * [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
 * [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
 
----
+# OOPS Examples
 
-# &#x1F4D7; Cherrypy - Example snippets in Cherrypy
+* [Calling a module in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-calling-module.md)
+
+
+###### &#x1F4D7; Cherrypy - Example snippets in Cherrypy
 
 * [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
 * [Cherrypy basic routing](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/cherrypy-basic-routing.md)
