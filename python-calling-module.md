@@ -1,4 +1,4 @@
-# importing modules in python
+# Importing modules in python
 
 Lets create a module called mymod.py with the below code
 
