@@ -35,18 +35,23 @@ import cherrypy
 
 class Fruits(object):
     def __init__(self):
+        # Create an instance of Snacks class
         self.snacks = Snacks()
     
+    # access like http://localhost:8080/chips
     @cherrypy.expose
     def chips(self):
+        # Call functions of snacks class
         return self.snacks.chips()
 
+    # access like http://localhost:8080/mango
     @cherrypy.expose
     def mango(self):
+        # Call functions of snacks class
         return self.snacks.mango()
 
 class Snacks(object):    
-    def chips(self):        
+    def chips(self):
         return 'Are you eating chips'
 
     def mango(self):        
