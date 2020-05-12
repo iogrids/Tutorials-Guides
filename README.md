@@ -173,6 +173,7 @@
 * [Handling CSS, Images and Javascript in Cherrypy ](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/handle-css-js-cherrypy.md)
 * [Dispatcher in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-dispatcher-in-cherrypy.md)
 * [Using **kwargs in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-kwargs-in-cherrypy.md)
+* [Using _cp_dispatch in Cherrypy for RESTFUL style of dispatching](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-cp-dispatch-in-cherrypy.md)
 
 ###### Using REST style of programming in Cherrypy (GET, POST, PUT, DELETE, UPDATE)
 
