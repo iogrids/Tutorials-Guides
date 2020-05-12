@@ -1,4 +1,4 @@
-Simple example of Classes and objects in Cherrypy
+# Simple example of Classes and objects in Cherrypy
 
 ```python
 import cherrypy
