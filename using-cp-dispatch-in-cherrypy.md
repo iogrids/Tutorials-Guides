@@ -48,7 +48,7 @@ http://localhost:8080/albums/?artist=nirvana&title=nevermind
    vpath.pop(1) - will remove albums
    ```
 
-"""
+```python
 
 import cherrypy
 
@@ -88,3 +88,5 @@ class Album(object):
 
 if __name__ == '__main__':
     cherrypy.quickstart(Band())
+    
+```
