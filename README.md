@@ -152,10 +152,6 @@
 * [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
 * [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
 
-###### OOPS Examples using Cherrpy
-
-* [Simple class module example using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-class-module-example-cherrypy.md)
-* [Inheritance using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/inheritance-using-cherrypy.md)
 
 ###### Cherrypy - Example snippets in Cherrypy
 
@@ -195,6 +191,11 @@
 * [Storing functions in a list using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/storing-functions-in-list.md)
 * [Using python decorators in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-python-decorators-in-cherrypy.md)
 * [Using multiple python decorators in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-multiple-python-decorators-cherrypy.md)
+
+###### Classes and Objects examples using Cherrpy
+
+* [Simple class module example using Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-class-module-example-cherrypy.md)
+* [Inheritance using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/inheritance-using-cherrypy.md)
 
 ---
 
