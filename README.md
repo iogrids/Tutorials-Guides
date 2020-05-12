@@ -153,7 +153,7 @@
 
 ###### OOPS Examples
 
-* [Calling a module in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-calling-module.md)
+* [Calling a module in python and importing functions and variables from the module](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-calling-module.md)
 
 ###### Cherrypy - Example snippets in Cherrypy
 
