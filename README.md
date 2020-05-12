@@ -174,6 +174,7 @@
 * [Dispatcher in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-dispatcher-in-cherrypy.md)
 * [Using **kwargs in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-kwargs-in-cherrypy.md)
 * [Using _cp_dispatch in Cherrypy for RESTFUL style of dispatching eg: ```http://localhost:8080/students/?id=MKT01138&name=jeril```](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-cp-dispatch-in-cherrypy.md)
+* [Using popargs for URL dispatching - can be used instead of _cp_dispatch](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/url-dispatching-using-popargs-decorator-in-cherrypy.md)
 
 ###### Using REST style of programming in Cherrypy (GET, POST, PUT, DELETE, UPDATE)
 
