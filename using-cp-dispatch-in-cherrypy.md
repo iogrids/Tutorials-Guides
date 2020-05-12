@@ -1,44 +1,52 @@
 # Real usecase Example: 
 
-"""
+
 Imagine you will have to display information like sex, state, physics_mark, chemistry_mark etc based on 
 id and name where there is a drop-down box for id and name. The user selects the id and name from the
 drop-down list. These values are passed to the python program.
 
 These parameters should be parsed by python which is done using _cp_dispatch()
 
+```
 http://localhost:8080/?id=MKT01138
 http://localhost:8080/students/?id=MKT01138&name=jeril
+```
 
 You cannot keep writing function for each passed value i.e 101011 & jeril. The _cp_dispatch() passes
 the values to a function which then retrieves values like sex, state, physics_mark, chemistry_mark
 etc from the database and returns the value as JSON.
 
-"""
+
 
 # Basic explanation
 
-"""
+
 The below code can create dynamic URL's like shown below
 
+```
 http://localhost:8080/nirvana/
 http://localhost:8080/nirvana/albums/nevermind/
+```
 
 the above URL's is also the same as
 
+```
 http://localhost:8080/?artist=nirvana
 http://localhost:8080/albums/?artist=nirvana&title=nevermind
+```
 
-1. _cp_dispatch is an inbuilt function in cherrypy which takes the URL and processes it
-2. If the URL is http://localhost:8080/nirvana/albums/nevermind/ _cp_dispatch processes the URL by 
+1. ```_cp_dispatch``` is an inbuilt function in cherrypy which takes the URL and processes it
+2. If the URL is ```http://localhost:8080/nirvana/albums/nevermind/``` ```_cp_dispatch``` processes the URL by 
    passing it to vpath. Now in vpath the values will be like this
 
+   ```
    vpath[nirvana, albums, nevermind]
    vpath.pop() -  will remove the first value inserted to vpath
    
    Example: 
    vpath.pop(0) - will remove nirvana
    vpath.pop(1) - will remove albums
+   ```
 
 """
 
