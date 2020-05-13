@@ -3,8 +3,10 @@
 
 ### Step 1: Scaffold the project & setup the crawler
 ```
-scrapy startproject <projectname>   # scrapy startproject worldometers
-scrapy crawl countries
+scrapy startproject <projectname>                              # scrapy startproject worldometers
+scrapy crawl countries                                         # To set up the crawler
+scrapy crawl countries -o countries_dataset.json               # Exports the scraped data as a CSV file
+scrapy crawl countries -o countries_dataset.csv 
 ```
 
 
