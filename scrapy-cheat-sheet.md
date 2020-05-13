@@ -214,3 +214,108 @@ Result:
 <li>Item 3</li>
 <li>Item 4</li>
 ```
+
+---
+
+```
+14. //p[@id='unique']/parent::div
+```
+
+```html
+<div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div>
+```
+
+---
+
+```
+15. //p[@id='unique']/parent::node()
+```
+
+```html
+
+<div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div>
+
+```
+
+---
+
+```
+16. //p[@id='unique']/ancestor::node()
+```
+
+```html
+
+<html lang="en"> <head> <title>XPath and CSS Selectors</title> </head> <body> <h1>XPath Selectors simplified</h1> <div class="intro"> <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p> <p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p> </div> <div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div> <p>Hi i'm placed immediately after a div</p> <span class="intro">Div with a class attribute set to intro</span> <ul id="items"> <li data-identifier="7">Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> </ul> <a href="https://www.google.com">Google</a> <a href="http://www.google.fr">Google France</a> </body> </html>
+
+<body> <h1>XPath Selectors simplified</h1> <div class="intro"> <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p> <p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p> </div> <div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div> <p>Hi i'm placed immediately after a div</p> <span class="intro">Div with a class attribute set to intro</span> <ul id="items"> <li data-identifier="7">Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> </ul> <a href="https://www.google.com">Google</a> <a href="http://www.google.fr">Google France</a> </body>
+<div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div>
+
+```
+
+---
+
+```
+17. //p[@id='unique']/ancestor-or-self::node()
+```
+
+```html
+<html lang="en"> <head> <title>XPath and CSS Selectors</title> </head> <body> <h1>XPath Selectors simplified</h1> <div class="intro"> <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p> <p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p> </div> <div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div> <p>Hi i'm placed immediately after a div</p> <span class="intro">Div with a class attribute set to intro</span> <ul id="items"> <li data-identifier="7">Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> </ul> <a href="https://www.google.com">Google</a> <a href="http://www.google.fr">Google France</a> </body> </html>
+
+<body> <h1>XPath Selectors simplified</h1> <div class="intro"> <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p> <p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p> </div> <div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div> <p>Hi i'm placed immediately after a div</p> <span class="intro">Div with a class attribute set to intro</span> <ul id="items"> <li data-identifier="7">Item 1</li> <li>Item 2</li> <li>Item 3</li> <li>Item 4</li> </ul> <a href="https://www.google.com">Google</a> <a href="http://www.google.fr">Google France</a> </body>
+
+<div class="outro"> <p id="unique">I'm in a div with a class attribute set to outro</p> </div>
+
+<p id="unique">I'm in a div with a class attribute set to outro</p>
+```
+
+---
+
+```
+18. //p[@id='unique']/preceding::node()
+```
+
+```html
+
+<head> <title>XPath and CSS Selectors</title> </head>
+
+<title>XPath and CSS Selectors</title>
+XPath and CSS Selectors
+
+<h1>XPath Selectors simplified</h1>
+XPath Selectors simplified
+
+<div class="intro"> <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p> <p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p> </div>
+
+<p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p>
+I'm paragraph within a div with a class set to intro
+
+<span id="location">I'm a span with ID set to location and i'm within a paragraph</span>
+I'm a span with ID set to location and i'm within a paragraph
+
+<p id="outside">I'm a paragraph with ID set to outside and i'm within a div with a class set to intro</p>
+I'm a paragraph with ID set to outside and i'm within a div with a class set to intro
+
+
+```
+
+---
+
+```
+19. //p[@id='unique']/preceding::h1
+```
+
+```html
+
+<h1>XPath Selectors simplified</h1>
+
+```
+
+```
+20. //p[@id='outside']/preceding-sibling::node()
+
+```
+
+```html
+<p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p>
+
+```
