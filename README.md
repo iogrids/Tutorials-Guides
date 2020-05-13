@@ -203,6 +203,7 @@
 
 # &#x1F4D7; Using Scrapy in Python
 
+* [Scrapy XPATH cheatsheet](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/scrapy-cheat-sheet.md)
 * [Scrapy simple example in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/scrapy-scrap-countries.md)
 
 
@@ -236,6 +237,7 @@
 # Using Kubernetes
 
 * [Complete installation and setup](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/kubernetes.md)
+
 # &#x1F4D7; Using Packer
 
 * [Using Packer](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/packer.md)
