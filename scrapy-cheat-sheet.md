@@ -204,6 +204,8 @@ Result:
 
 ---
 
+# Navigating using XPath - Going up
+
 ```
 14. //ul[@id='items']/li[position() > 1]
 ```
@@ -319,3 +321,8 @@ I'm a paragraph with ID set to outside and i'm within a div with a class set to 
 <p> I'm paragraph within a div with a class set to intro <span id="location">I'm a span with ID set to location and i'm within a paragraph</span> </p>
 
 ```
+
+# Navigating using XPath - Going down
+
+
+
