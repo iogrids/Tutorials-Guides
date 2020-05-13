@@ -5,8 +5,8 @@
 ```
 scrapy startproject <projectname>                              # scrapy startproject worldometers
 scrapy crawl countries                                         # To set up the crawler
-scrapy crawl countries -o countries_dataset.json               # Exports the scraped data as a CSV file
-scrapy crawl countries -o countries_dataset.csv 
+scrapy crawl countries -o countries_dataset.json               # Exports the scraped data as a JSON file
+scrapy crawl countries -o countries_dataset.csv                # Exports the scraped data as a CSV file
 ```
 
 
