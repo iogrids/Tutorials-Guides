@@ -42,7 +42,7 @@
 # How to use xpath to select the appropriate element from the above HTML file    
 
 ```
-//div[@class='intro']/p
+1. //div[@class='intro']/p
 ```
 Result:
 
@@ -54,7 +54,7 @@ Result:
 ---
 
 ```
-//div[@class='intro' or @class='outro']/p
+2. //div[@class='intro' or @class='outro']/p
 ```
 Result:
 
