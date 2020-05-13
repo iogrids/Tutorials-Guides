@@ -71,3 +71,4 @@ cherrypy.quickstart(HelloWorld())
 
 ```
 
+Note: If you want to run the application within Docker try entrypoint.sh script and in the entrypoint.sh file try running both scrapyrt server and cherrypy server. This is not tested however
