@@ -67,7 +67,7 @@ Result:
 ---
 
 ```
-//div[@class='intro' or @class='outro']/p/text()
+3. //div[@class='intro' or @class='outro']/p/text()
 ```
 
 Result:
@@ -81,7 +81,7 @@ I'm in a div with a class attribute set to outro
 ---
 
 ```
-//a/@href
+4. //a/@href
 ```
 Result:
 
@@ -93,7 +93,7 @@ http://www.google.fr
 ---
 
 ```
-//a[starts-with(@href, 'https')]
+5. //a[starts-with(@href, 'https')]
 ```
 
 Result:
@@ -105,7 +105,7 @@ Result:
 ---
 
 ```
-//a[ends-with(@href, 'fr')]
+6. //a[ends-with(@href, 'fr')]
 ```
 
 ```html
@@ -116,7 +116,7 @@ Result:
 
 
 ```
-//a[contains(@href, 'google')]
+7. //a[contains(@href, 'google')]
 ```
 
 Result: 
@@ -129,7 +129,7 @@ Result:
 ---
 
 ```
-//a[contains(text(), 'France')]
+8. //a[contains(text(), 'France')]
 ```
 Result:
 
@@ -140,7 +140,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li
+9. //ul[@id='items']/li
 ```
 Result:
 
@@ -154,7 +154,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li[1]
+10. //ul[@id='items']/li[1]
 ```
 
 Result:
@@ -166,7 +166,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li[1 or 4]
+11. //ul[@id='items']/li[1 or 4]
 ```
 Result:
 
@@ -180,7 +180,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li[position() =  1 or position() = 4]
+12. //ul[@id='items']/li[position() =  1 or position() = 4]
 ```
 Result:
 
@@ -192,7 +192,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li[position() =  1 or position() = last()]
+13. //ul[@id='items']/li[position() =  1 or position() = last()]
 ```
 
 Result:
@@ -205,7 +205,7 @@ Result:
 ---
 
 ```
-//ul[@id='items']/li[position() > 1]
+14. //ul[@id='items']/li[position() > 1]
 ```
 Result:
 
