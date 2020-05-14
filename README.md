@@ -199,6 +199,10 @@
 * [Inheritance using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/inheritance-using-cherrypy.md)
 * [Multiple classes in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/running-multiple-class-in-cherrypy.md)
 
+###### Validation
+
+* [validation using voluptuous for Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/validation-using-voluptuous.md)
+
 ---
 
 # &#x1F4D7; Using Scrapy in Python
