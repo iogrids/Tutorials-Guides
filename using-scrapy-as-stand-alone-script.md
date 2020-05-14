@@ -1,5 +1,7 @@
 # Using Scrapy as a standalone script.
 
+Scrapy can be run as a standalone script with the help of a library called CrawlerProcess as shown below
+
 ```python
 import scrapy
 from scrapy.crawler import CrawlerProcess
