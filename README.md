@@ -205,7 +205,7 @@
 
 * [Scrapy XPATH cheatsheet](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/scrapy-cheat-sheet.md)
 * [Scrapy simple example in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/scrapy-scrap-countries.md)
-
+* [Using Scrapy as a stand-alone script](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/using-scrapy-as-stand-alone-script.md)
 
 --- 
 
