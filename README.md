@@ -212,7 +212,8 @@
 * [Passing headers to a GET request using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/passing-headers-in-request-library.md)
 * [Examples of sending a POST, PUT, DELETE, PATCH using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/post-put-delete-patch-examples.md)
 * [Calling a POST request with parameters](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-with-parameters.md)
-* [sending POST request to a FORM data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-to-form-data.md)
+* [Sending POST request to a FORM data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-to-form-data.md)
+* [Sending images to server as POST data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-images-to-server.md)
 
 ---
 
