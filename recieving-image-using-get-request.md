@@ -1,5 +1,6 @@
 # Receiving images by the client/browser using GET request using the REQUEST library
 
+```python
 r = requests.get('https://httpbin.org/image/jpeg')
 # print(r.headers)
 
@@ -12,3 +13,5 @@ r = requests.get('https://httpbin.org/image/jpeg')
 with open('image.jpeg', 'wb') as fd:
    for chunk in r.iter_content(chunk_size=500):
       fd.write(chunk)
+      
+```
