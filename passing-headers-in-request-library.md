@@ -1,4 +1,4 @@
-# Passing headers to POST request using Request Library
+# Passing headers to GET request using Request Library
 
 Values passed in headers would be api-key, user-agent etc. 
 
