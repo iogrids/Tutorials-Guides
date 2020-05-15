@@ -214,6 +214,7 @@
 * [Calling a POST request with parameters](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-with-parameters.md)
 * [Sending POST request to a FORM data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-to-form-data.md)
 * [Sending images to server as POST data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-images-to-server.md)
+* [Recieving images as a GET request using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/recieving-image-using-get-request.md)
 
 ---
 
