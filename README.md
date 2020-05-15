@@ -211,6 +211,7 @@
 * [Calling a GET request with querystring using REQUEST Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-get-request.md)
 * [Passing headers to a GET request using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/passing-headers-in-request-library.md)
 * [Examples of sending a POST, PUT, DELETE, PATCH using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/post-put-delete-patch-examples.md)
+* [Calling a POST request with parameters](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request-with-parameters.md)
 
 ---
 
