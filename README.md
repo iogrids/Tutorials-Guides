@@ -207,8 +207,9 @@
 
 ###### Using Request Library with Cherrypy
 
-* [Simple example of using Request library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
-* [Sending a POST request using Request Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request.md)
+* [Simple example of using REQUEST library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
+* [Sending a POST request using REQUEST Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request.md)
+* [Passing headers using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/passing-headers-in-request-library.md)
 
 ---
 
@@ -233,7 +234,9 @@
 * [How to write a vagrant file](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Vagrantfile)
 
 # &#x1F4D7; Terraform 
+
 * [Using Terraform](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/terraform.md)
+
    
 # &#x1F4D7; Using Docker
 
