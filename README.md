@@ -56,6 +56,7 @@
 * [How to disable a button in Javascript](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/JS-working-with-dom-elements.md#disable-a-button-in-javascript)
 * [How to set and get elements of a DIV using innerHtml](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/JS-working-with-dom-elements.md#to-get-the-elements-of-div---use-innerhtml)
    
+
 ## Mixing Javascript & HTML Sample Code
 
 * [Mixing Javascript & HTML](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/mixing%20javascript%20and%20HTML.md)
@@ -199,14 +200,15 @@
 * [Inheritance using cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/inheritance-using-cherrypy.md)
 * [Multiple classes in Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/running-multiple-class-in-cherrypy.md)
 
-###### Validation
+###### Validation for Cherrypy
 
 * [validation using voluptuous for Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/validation-using-voluptuous.md)
 
 
 ###### Using Request Library with Cherrypy
 
-* [Simple example of using request library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
+* [Simple example of using Request library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
+* [Sending a POST request using Request Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request.md)
 
 ---
 
