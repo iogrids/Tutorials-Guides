@@ -1,4 +1,4 @@
-# Sending a POST request using request library
+# Sending a GET request with parameters using the request library
 
 ```python
 r = request.get('https://requestbin.com/wp04xjwp?key1=value1&key2=value2')
