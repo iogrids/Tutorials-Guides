@@ -207,9 +207,9 @@
 
 ###### Using Request Library with Cherrypy
 
-* [Simple example of using REQUEST library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
-* [Sending a POST request using REQUEST Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-post-request.md)
-* [Passing headers using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/passing-headers-in-request-library.md)
+* [Calling a GET request using REQUEST library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
+* [Calling a GET request with querystring using REQUEST Library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-get-request.md)
+* [Passing headers to a GET request using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/passing-headers-in-request-library.md)
 
 ---
 
