@@ -203,6 +203,11 @@
 
 * [validation using voluptuous for Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/validation-using-voluptuous.md)
 
+
+###### Using Request Library with Cherrypy
+
+* [Simple example of using request library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
+
 ---
 
 # &#x1F4D7; Using Scrapy in Python
