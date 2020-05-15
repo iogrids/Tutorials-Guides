@@ -7,6 +7,8 @@
   as shown below
 
   Content-Type: multipart/form-data;
+  
+  image/jpeg - informs the server that we are sending a jpeg image mime type. If you want to send other kind of files mention the appropriate mime type
 
 """
 
