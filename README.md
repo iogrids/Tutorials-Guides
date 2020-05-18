@@ -153,11 +153,6 @@
 * [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
 * [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
 
-###### Working with JSON
-
-* [JSON to python conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/json-to-python-conversion.md)
-* [python to JSON conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-to-json-conversion.md)
-
 ###### Cherrypy - Example snippets in Cherrypy
 
 * [Cherrypy Old Tutorial](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/cherrypy-tutorial.py)
@@ -208,7 +203,6 @@
 
 * [validation using voluptuous for Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/validation-using-voluptuous.md)
 
-
 ###### Using Request Library with Cherrypy
 
 * [Calling a GET request using REQUEST library with Cherrypy](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/simple-example-using-request-library.md)
@@ -220,7 +214,11 @@
 * [Sending images to server as POST data using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/sending-images-to-server.md)
 * [Recieving images as a GET request using REQUEST library](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/recieving-image-using-get-request.md)
 
----
+###### Working with JSON data in python
+
+* [JSON to python conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/json-to-python-conversion.md)
+* [Python to JSON conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-to-json-conversion.md)
+* [Error handling in JSON data](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/error-handling-json-data.md)
 
 # &#x1F4D7; Using Scrapy in Python
 
