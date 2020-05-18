@@ -152,7 +152,11 @@
 
 * [Python Datatypes like dictionary, tuples](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/Complete%20Python%20Bootcamp.ipynb)
 * [Using *args and **kwargs in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/6b5e4ef6cca31d956d6a080fac39b58846926d5e/using-args-kwargs-in-python.md)
-* [Working with JSON in python](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/working-with-json-python.md)
+
+###### Working with JSON
+
+* [JSON to python conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/json-to-python-conversion.md)
+* [python to JSON conversion](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/python-to-json-conversion.md)
 
 ###### Cherrypy - Example snippets in Cherrypy
 
