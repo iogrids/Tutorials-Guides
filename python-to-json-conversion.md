@@ -1,3 +1,9 @@
+When you work with JSON, there are basically two kinds of function
+
+1. Parsing functions            - used to parse text into JSON  [These functions are used load(), loads() ]
+2. Serialization functions      - used to serialize an object into JSON [These functions are used dump(), dumps() ]
+
+
 # Python objects to JSON conversion/serialization
 
 python converts or serializes object into JSON according to the following table
