@@ -39,7 +39,7 @@ JSON converts or serializes JSON object according to the following format
 | null                  | None          |
 
 
-# 1. Converting JSON data to python object Code example
+# 1. Converting JSON data to python object - Example
 
 ```python
 import 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 ```
 
-2. Convert python data to JSON data example
+2. Convert python data to JSON data - Example
 
 
 ```python
