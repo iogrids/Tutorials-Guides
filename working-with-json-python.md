@@ -39,7 +39,7 @@ JSON converts or serializes JSON object according to the following format
 | null                  | None          |
 
 
-# JSON to python Code
+# Converting JSON to python Code example
 
 ```python
 def main():
@@ -57,12 +57,24 @@ def main():
 
     # TODO: parse the JSON data using loads
     # The below line will convert the above JSON object to python dictionary. 
-    # Once converted to python dictionary you can use any python dictionary methods on it.
     
     data =  json.loads(jsonStr)
 
     # TODO: print information from the data structure
-
+    # Once converted to python dictionary you can use any python dictionary methods on it.
+    
+    print("Sandwich:" + data['sandwich'])
+    
+    if (data['toasted']):
+       print("And it is toasted!")
+       
+    # toppings is an array in the above JSON object. 
+    # Once converted to Python object it JSON array becomes a list.
+    # Hence you can iterate over the above list as shown below
+    
+    for topping in data['toppings']:
+       print("Topping: " + topping )
+       
 
 if __name__ == "__main__":
     main()
