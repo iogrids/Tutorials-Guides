@@ -69,7 +69,7 @@ def main():
        print("And it is toasted!")
        
     # toppings is an array in the above JSON object. 
-    # Once converted to Python object it JSON array becomes a list.
+    # Once converted to Python object using json.loads() method, JSON array becomes a list.
     # Hence you can iterate over the above list as shown below
     
     for topping in data['toppings']:
