@@ -39,9 +39,10 @@ JSON converts or serializes JSON object according to the following format
 | null                  | None          |
 
 
-# 1. Converting JSON object to python object Code example
+# 1. Converting JSON data to python object Code example
 
 ```python
+import 
 def main():
     # define a string of JSON code
     jsonStr = '''{
@@ -80,4 +81,41 @@ if __name__ == "__main__":
     main()
 
 
+```
+
+2. Convert python data to JSON data example
+
+
+```python
+
+# use the JSON module
+import json
+
+
+def main():
+    # define a python ditcionary
+    pythonData = {
+        "sandwich": "Reuben",
+        "toasted": True,
+        "toppings": ["Thousand Island Dressing",
+                     "Sauerkraut",
+                     "Pickles"
+                     ],
+        "price": 8.99
+    }
+
+    # TODO: serialize to JSON using dumps
+    # converts the above python object to JSON string
+    
+    jsonStr = json.dumps(pythonData)
+    
+
+    # TODO: print the resulting JSON string
+    print("JSON Data: --------")
+    # indent=4, will format the JSON data and show the results in a clean manner
+    print(jsonStr, indent=4)
+    
+
+if __name__ == "__main__":
+    main()
 ```
