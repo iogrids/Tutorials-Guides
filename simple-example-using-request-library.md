@@ -28,6 +28,7 @@ class HelloWorld(object):
     @cherrypy.expose
     def index(self):
         r = requests.get('https://reqres.in/api/users/2')
+        # The request library will automatically detect if the returned content from request is JSON and will parse it for you. The data is then made available using the json() function
         json_data = r.json()
         return json_data['ad']['url']
 
