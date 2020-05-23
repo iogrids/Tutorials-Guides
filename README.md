@@ -289,6 +289,7 @@
 # &#x1F4D7; Copywriting Tricks
 
 * [Writing effective emotional titles](https://en.kueez.com/) - You can use them for QUIZ Style/ Multiple Questions landing pages
+* [Email copywriting example from David affplaybook](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/email-copywriting-example.md)
 
 # &#x1F4D7; Paid Ads
 
