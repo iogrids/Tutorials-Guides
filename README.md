@@ -103,7 +103,7 @@
 
 # &#x1F4D7; NODE.JS
 
-   Reference: [Pirple, Username: cholapumps@gmail.com, password: livin...711](https://pirple.thinkific.com), Udemy (jerilcj1@gmail.com, jerilcj3@gmail.com, cholapumps@gmail.com), Lynda
+   Reference: pirple.thinkific.com (Username: cholapumps@gmail.com, password: livin...711), Udemy (jerilcj1@gmail.com, jerilcj3@gmail.com, cholapumps@gmail.com), Lynda
 
 * [Introduction to Node](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/NODE-JS-Introduction.md)
 * [Using require in nodejs - Including npm modules](https://gitlab.com/tutorial-guides/tutorials-and-guides/blob/master/NODE-Using%20require%20in%20nodejs.md)
