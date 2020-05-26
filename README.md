@@ -294,3 +294,7 @@
 # &#x1F4D7; Paid Ads
 
 * [Blocking by ISP](https://charlesngo.com/blockingfaketraffic/) - Find all datacenter IPs and blacklist them
+
+# &#x1F4D7; Affiliate Marketing Resources (Forums, paid cources username and password etc)
+
+* [afflift.com, Username: jeriljose, password: M!cr.....](http://afflift.com)
