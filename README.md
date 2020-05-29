@@ -311,4 +311,4 @@
 # &#x1F4D7; Affiliate Marketing Resources (Forums, paid cources username and password etc)
 
 * [afflift.com, Username: jeriljose, password: M!cr.....](http://afflift.com)
-* [idplr, PLR articles and videos, Username: jerilcj3@gmail.com, Password: M!...](idplr.com)
+* [idplr, PLR articles and videos, Username: jerilcj3@gmail.com, Password: M!...](https://idplr.com)
