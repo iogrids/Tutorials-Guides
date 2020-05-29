@@ -291,6 +291,7 @@
 * [Writing effective emotional titles](https://en.kueez.com/) - You can use them for QUIZ Style/ Multiple Questions landing pages
 * [How to create impossible to ignore sales angles](https://drive.google.com/file/d/0B8d0hzzcIKPtSkY5YVZvSlhnRms/view?usp=sharing)
 * [Copywriting secrets by Dan Lok](https://docs.google.com/document/d/1XGc4TMyGIgMy8RslEUy1dKF8ZGChibieF-ZlKSUJnOw/edit?usp=sharing)
+* [Emotional power words in Copywriting](https://drive.google.com/file/d/1IjrpuzGXl0fFmr31NWYTaC9pNeCkESZK/view?usp=sharing)
 
 ###### Title Swipe Files
 
