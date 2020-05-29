@@ -289,9 +289,16 @@
 # &#x1F4D7; Copywriting Materials
 
 * [Writing effective emotional titles](https://en.kueez.com/) - You can use them for QUIZ Style/ Multiple Questions landing pages
-* [Email copywriting swipefile from David of affplaybook](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/email-copywriting-example.md)
 * [How to create impossible to ignore sales angles](https://drive.google.com/file/d/0B8d0hzzcIKPtSkY5YVZvSlhnRms/view?usp=sharing)
 * [Copywriting secrets by Dan Lok](https://docs.google.com/document/d/1XGc4TMyGIgMy8RslEUy1dKF8ZGChibieF-ZlKSUJnOw/edit?usp=sharing)
+
+###### Sales Page Swipe Files
+
+* [Fan page funnel walk through](https://drive.google.com/file/d/10RHNvviBR5Zy8e8aJ8FvO-AS50qyoAUX/view?usp=sharing)
+
+###### Email Swipe Files
+
+* [Email copywriting swipefile from David of affplaybook](https://gitlab.com/tutorial-guides/tutorials-and-guides/-/blob/master/email-copywriting-example.md)
 
 # &#x1F4D7; Paid Ads
 
