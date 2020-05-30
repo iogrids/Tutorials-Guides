@@ -314,3 +314,4 @@
 
 * [afflift.com, Username: jeriljose, password: M!cr.....](http://afflift.com)
 * [idplr, PLR articles and videos, Username: jerilcj3@gmail.com, Password: M!...](https://idplr.com)
+* [optimize press - landing page builder, email used: fluidmagmt@gmail.com](https://members.optimizepress.com/)
