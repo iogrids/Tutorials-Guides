@@ -293,6 +293,9 @@
 * [Copywriting secrets by Dan Lok](https://docs.google.com/document/d/1XGc4TMyGIgMy8RslEUy1dKF8ZGChibieF-ZlKSUJnOw/edit?usp=sharing)
 * [Emotional power words in Copywriting](https://drive.google.com/file/d/1IjrpuzGXl0fFmr31NWYTaC9pNeCkESZK/view?usp=sharing)
 * [Sales page scruffles - Photoshop PSD files like arrows, fonts to be used in sales pages](https://drive.google.com/file/d/1_sd2Hlba_osMwf1dlKwDeC8zFYmVhm0Q/view?usp=sharing)
+* [Breakthrough Advertising](https://drive.google.com/file/d/0B8d0hzzcIKPtQWVKQTJScjBEMjg/view?usp=sharing)
+* [Advertising secrets of the written word](https://drive.google.com/file/d/0B8d0hzzcIKPtRTNwbi1LZlVGMms/view?usp=sharing)
+* [The 100 greatest advertisements](https://drive.google.com/file/d/0B8d0hzzcIKPtcW5ZRExUMG1nWFE/view?usp=sharing)
 
 ###### Title Swipe Files
 
