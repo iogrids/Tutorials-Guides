@@ -297,6 +297,7 @@
 * [Advertising secrets of the written word](https://drive.google.com/file/d/0B8d0hzzcIKPtRTNwbi1LZlVGMms/view?usp=sharing)
 * [The 100 greatest advertisements](https://drive.google.com/file/d/0B8d0hzzcIKPtcW5ZRExUMG1nWFE/view?usp=sharing)
 * [Cashvertising](https://drive.google.com/file/d/1sjmSRUaoOi8nV0uADsTK0zpQrFdpLkSu/view?usp=sharing)
+* [Selling sweepstakes tricks](https://drive.google.com/file/d/15plt5aQ84ex0RU4d_p0Rj68-nauD7EQD/view?usp=sharing)
 
 ###### Title Swipe Files
 
