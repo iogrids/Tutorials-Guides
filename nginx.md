@@ -15,6 +15,8 @@ usermod -aG sudo jeriljose
 
 # Installing nginx
 
+nginx is installed in /etc/nginx/nginx.conf
+
 ```
 sudo apt-get update
 
