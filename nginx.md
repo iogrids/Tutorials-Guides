@@ -1,4 +1,6 @@
-# Installing nginx from source, hardening and securing it
+# Installing nginx from source, hardening and securing it for mautic
+
+
 
 # Requirements
 
