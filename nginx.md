@@ -1,56 +1,50 @@
-# Installing nginx from source, hardening and securing it for mautic
-
-
-
 # Requirements
 
 ubuntu 18.04
 
 # Initial Server setup
 
-```
 adduser jeriljose
 usermod -aG sudo jeriljose
-```
 
 # Installing nginx
 
-nginx is installed in /etc/nginx/nginx.conf
-
-```
-sudo apt-get update
+apt-get update -y
 
 wget https://nginx.org/download/nginx-1.19.7.tar.gz
      
 tar -zxvf nginx-1.19.7.tar.gz
 
-sudo apt-get install build-essential
+./configure
+
+apt-get install build-essential -y
 
 ./configure
 
-sudo apt-get install libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev
+apt-get install libpcre3 libpcre3-dev zlib1g zlib1g-dev libssl-dev -y
 
 ./configure
 
 ./configure --sbin-path=/usr/bin/nginx --conf-path=/etc/nginx/nginx.conf --error-log-path=/var/log/nginx/error.log --http-log-path=/var/log/nginx/access.log --with-pcre --pid-path=/var/run/nginx.pid --with-http_ssl_module
 
-sudo make
+make
 
-sudo make install
+make install
 
-sudo nginx -V
+nginx -V
 
 ps aux | grep nginx
 
 nginx -s stop
-```
+
 
 # Configuring systemd
 
 ```
 touch /lib/systemd/system/nginx.service
+```
 
-
+```
 [Unit]
 Description=The NGINX HTTP and reverse proxy server
 After=syslog.target network-online.target remote-fs.target nss-lookup.target
@@ -67,7 +61,9 @@ PrivateTmp=true
 
 [Install]
 WantedBy=multi-user.target
+```
 
+```
 systemctl start nginx
 
 systemctl status nginx
@@ -75,18 +71,24 @@ systemctl status nginx
 systemctl enable nginx
 ```
 
+
 # Installing php and php-fpm
 
 ```
-sudo apt install php7.2 php7.2-fpm php7.2-mysql php-common php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl
+apt install php7.2 php7.2-fpm php7.2-mysql php-common php7.2-cli php7.2-common php7.2-json php7.2-opcache php7.2-readline php7.2-mbstring php7.2-xml php7.2-gd php7.2-curl -y
 
-sudo systemctl enable php7.2-fpm
-
-
-systemctl status php7.2-fpm
 ```
 
+```
+systemctl enable php7.2-fpm
+systemctl status php7.2-fpm
+systemctl list-units | grep php -> checks what all php packages are installed
+
+```
+
+
 # Configuration for nginx
+
 
 ```
 user www-data;
@@ -213,30 +215,37 @@ http {
   }
 }
 
+```
 
 
+nginx -t
 
-sudo nginx -t
-
-sudo systemctl reload nginx
+systemctl reload nginx
 
 
-sudo systemctl restart nginx
+systemctl restart nginx
 
 ```
 
-# To check nginx error logs
-
-```
 tail -n 1 /var/log/nginx/error.log
+
+Apply for the mautic folder
+
 ```
+sudo chown -R www-data:www-data .
+```
+
+To restart php-fpm
+
+```
+sudo systemctl restart php7.2-fpm
+```
+
 
 # Installing certificates
 
-```
 sudo apt install certbot
 
 sudo apt install python3-certbot-nginx
 
 sudo certbot --nginx --agree-tos --redirect --hsts --staple-ocsp --email iogrids1@gmail.com -d leads.iogrids.com
-```
